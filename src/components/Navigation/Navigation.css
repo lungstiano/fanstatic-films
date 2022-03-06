@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+}
+
+.navBar{
+    background-color: yellow;
+    padding: 1em;
+}
+.navItems{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
