@@ -21,10 +21,7 @@ const Films = () =>{
         
             // }
         })
-
-
         setFilms(results)
-
     }
 
 

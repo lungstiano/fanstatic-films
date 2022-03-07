@@ -10,7 +10,7 @@
     border: 1px solid black;
     border-radius: 5px;
     position: relative;
-    
+    cursor: pointer;
 }
 .film-title{
     padding-left: 15px;
@@ -23,7 +23,6 @@
     overflow: hidden; 
    top: 0;
    right: 0;
-
 }
 .sashas{
     display: flex;
@@ -37,5 +36,4 @@
     color: white;
     box-shadow: grey 0px 8px 6px -8px;
     padding-top: 12px;
-    
 }
