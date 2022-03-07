@@ -3,14 +3,27 @@ body{
 }
 
 .navBar{
-    background-color: yellow;
-    padding: 1em;
-}
-.navItems{
+    background-color: #f8b133;
+    /* padding: 1em; */
     display: flex;
     justify-content: space-evenly;
+    
+}
+.navItems{
+    padding:0;
+    display: flex;
     list-style: none;
 }
+
 li a{
     text-decoration: none;
+    color: #606366;
+}
+
+.logo a{
+    list-style: none; 
+    color: white!important;
+    background-color: #606366;
+    padding: 1em;
+    
 }
