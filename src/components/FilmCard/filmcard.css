@@ -1,0 +1,8 @@
+.film-placeholder{
+    min-height: auto;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

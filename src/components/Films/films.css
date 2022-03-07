@@ -1,0 +1,12 @@
+
+.movieContainer{
+    
+    padding: 1em;
+    display: grid;
+    gap: 15px;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.film-cover{
+    width: 100%;
+}
