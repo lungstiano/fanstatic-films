@@ -1,5 +1,6 @@
 import React from "react";
 import axios from "axios";
+import InfinateScroll from 'react-infinite-scroll-component';
 import { useEffect, useState } from "react";
 import "./films.css";
 
@@ -31,6 +32,7 @@ const Films = () =>{
         fetchFilms()
     }, [])
 
+   
     const renderFilms = () =>(
         films.map(film =>(
             <FilmCard
@@ -45,13 +47,17 @@ const Films = () =>{
             
 
     return(
-        <div className="movieContainer">
+        // <InfinateScroll 
+        //     dataLength={films.length}
+        //     next={fetchFilms}
+        //     hasMore={true}
+        //     loader={<h4>Loading...</h4>}
+        // >
+            <div className="movieContainer">
+                {renderFilms()}
+            </div>
 
-            {renderFilms()}
-            
-             
-        </div>
-                
+        //</InfinateScroll>        
     );
 
 }

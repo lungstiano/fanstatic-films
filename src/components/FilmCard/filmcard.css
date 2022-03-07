@@ -6,3 +6,36 @@
     justify-content: center;
     align-items: center;
 }
+.film-card{
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    
+}
+.film-title{
+    padding-left: 15px;
+}
+.sashas-container{
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    overflow: hidden; 
+   top: 0;
+   right: 0;
+
+}
+.sashas{
+    display: flex;
+    justify-content: center;
+    width: 135px;
+    height: 35px;
+    background-color: rgb(248, 177, 51);
+    opacity: .9;
+    margin-top: 8px;
+    transform: rotate(45deg);
+    color: white;
+    box-shadow: grey 0px 8px 6px -8px;
+    padding-top: 12px;
+    
+}
